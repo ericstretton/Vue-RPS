@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <LoginScreen />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import LoginScreen from '@/components/LoginScreen.vue'
 
   export default {
     name: 'HomeView',
 
     components: {
-      HelloWorld,
+      LoginScreen,
     },
   }
 </script>
